@@ -1,0 +1,19 @@
+{
+  "name": "gen-socialnetwork18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haiderali1998/gen-SOCIALNETWORK18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haiderali1998/gen-SOCIALNETWORK18/issues"
+  },
+  "homepage": "https://github.com/haiderali1998/gen-SOCIALNETWORK18#readme"
+}
