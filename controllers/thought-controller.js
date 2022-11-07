@@ -72,6 +72,7 @@ module.exports = {
   },
 
   removeReaction(req, res) {
+    console.log(req.params)
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
       { $pull: { reaction: { reactionId: req.params.reactionId } } },
@@ -83,8 +84,8 @@ module.exports = {
             .status(404)
             .json({ message: "No Reaction found with that ID :(" });
         }
-        res.json(thought);
+        return res.json(thought);
       })
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => {res.status(500).json(err)});
   },
 };
